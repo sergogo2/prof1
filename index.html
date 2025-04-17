@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Profile</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #000;
+            overflow-x: hidden;
+        }
+        .profile-container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+        .profile-header img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 5px solid #2575fc;
+            margin-bottom: 20px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            object-fit: cover;
+        }
+        .profile-header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #000;
+        }
+        .profile-header p {
+            margin: 10px 0;
+            font-size: 1.5rem;
+            color: #000;
+        }
+        .profile-content {
+            margin-top: 40px;
+            text-align: left;
+        }
+        .profile-content h2 {
+            font-size: 2rem;
+            color: #2575fc;
+            border-bottom: 2px solid #f4f4f9;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .profile-content p {
+            line-height: 1.8;
+            font-size: 1.25rem;
+            color: #000;
+        }
+        .gallery {
+            margin-top: 30px;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            border-radius: 5px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .contact-info {
+            margin-top: 30px;
+            font-size: 1.25rem;
+        }
+        .contact-info p {
+            margin: 10px 0;
+        }
+        .contact-info a {
+            color: #2575fc;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 2rem;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <img src="rush.png" alt="Teacher's photo">
+            <h1>Raushan Jarkynbekovna</h1>
+            <p>English teacher with 8 years of experience</p>
+        </div>
+        <div class="profile-content">
+            <h2>About Me</h2>
+            <p>I am a professional English teacher helping students master the language for study, work, and travel. 
+            My goal is to make learning English engaging and effective. I use modern teaching methods, including interactive lessons, 
+            audio, and video materials, to help students learn faster.</p>
+            <p>In my lessons, students not only learn grammar and vocabulary but also develop communication skills, 
+            which help them feel confident in real-life situations.</p>
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="class1.png" alt="Classroom photo">
+                <img src="classroom3.jpg" alt="Teaching materials">
+            </div>
+            <h2>Contact Information</h2>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:karabekovaraushan72@gmail.com">karabekovaraushan72@gmail.com</a></p>
+                <p>Phone: <a href="tel:+99622048">+996 220 48...</a></p>
+                <p>Social Media: <a href="https://www.instagram.com/raushan_jarkynbekovna?igsh=MWY5eHJ1cnlreW1ueg%3D%3D&utm_source=qr" target="_blank">Instagram</a></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Developed by Sergey®
+    </footer>
+</body>
+</html>
